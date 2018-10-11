@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[执行webTestCase1]]>
+    </line>
+    <line>
+      <![CDATA[执行webTestCase2]]>
+    </line>
+    <line>
+      <![CDATA[报错截图地址：D:/workspace2/My_Java_Demo/result/test-report/snapshot/2018_10_11_10_25_17_com.test.demo.testcases.CaseDemo-webTestCase2.jpg]]>
+    </line>
+    <line>
+      <![CDATA[#aimg src="./snapshot/2018_10_11_10_25_17_com.test.demo.testcases.CaseDemo-webTestCase2.jpg" /a#]]>
+    </line>
+    <line>
+      <![CDATA[执行webTestCase3]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8728" started-at="2018-10-11T02:25:11Z" finished-at="2018-10-11T02:25:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8728" started-at="2018-10-11T02:25:11Z" finished-at="2018-10-11T02:25:20Z">
+      <class name="com.test.demo.testcases.CaseDemo">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.demo.testcases.CaseDemo@3abbfa04]" name="setUp" is-config="true" duration-ms="5230" started-at="2018-10-11T10:25:11Z" finished-at="2018-10-11T10:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="webTestCase1()[pri:0, instance:com.test.demo.testcases.CaseDemo@3abbfa04]" name="webTestCase1" duration-ms="226" started-at="2018-10-11T10:25:16Z" finished-at="2018-10-11T10:25:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[执行webTestCase1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- webTestCase1 -->
+        <test-method status="FAIL" signature="webTestCase2()[pri:0, instance:com.test.demo.testcases.CaseDemo@3abbfa04]" name="webTestCase2" duration-ms="56" started-at="2018-10-11T10:25:16Z" finished-at="2018-10-11T10:25:17Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"su1"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'YK-DZ-4711702', ip: '10.106.29.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 8fd4b3e13d2e756e8a1c6aef9929c038
+*** Element info: {Using=id, value=su1}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"su1"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'YK-DZ-4711702', ip: '10.106.29.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 8fd4b3e13d2e756e8a1c6aef9929c038
+*** Element info: {Using=id, value=su1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:363)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at com.test.demo.testcases.CaseDemo.webTestCase2(CaseDemo.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[执行webTestCase2]]>
+            </line>
+            <line>
+              <![CDATA[报错截图地址：D:/workspace2/My_Java_Demo/result/test-report/snapshot/2018_10_11_10_25_17_com.test.demo.testcases.CaseDemo-webTestCase2.jpg]]>
+            </line>
+            <line>
+              <![CDATA[#aimg src="./snapshot/2018_10_11_10_25_17_com.test.demo.testcases.CaseDemo-webTestCase2.jpg" /a#]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- webTestCase2 -->
+        <test-method status="PASS" signature="webTestCase3()[pri:0, instance:com.test.demo.testcases.CaseDemo@3abbfa04]" name="webTestCase3" duration-ms="10" started-at="2018-10-11T10:25:17Z" finished-at="2018-10-11T10:25:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[执行webTestCase3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- webTestCase3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.demo.testcases.CaseDemo@3abbfa04]" name="tearDown" is-config="true" duration-ms="2870" started-at="2018-10-11T10:25:17Z" finished-at="2018-10-11T10:25:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.demo.testcases.CaseDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
