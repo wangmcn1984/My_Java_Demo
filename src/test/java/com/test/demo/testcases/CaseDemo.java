@@ -6,13 +6,8 @@ import org.testng.annotations.Test;
 
 import com.test.demo.base.BaseParpare;
 
-import io.qameta.allure.Description;
-import ru.yandex.qatools.allure.annotations.Title;
-
 public class CaseDemo extends BaseParpare {
 
-	@Title("APP-授信申请 case01_app_credit")
-	@Description("打开APP，进行注册登录等操作")
 	@Test
 	public void webTestCase1() {
 		// ExtentReports报告中输出log
